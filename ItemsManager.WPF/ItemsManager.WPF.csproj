@@ -1,0 +1,199 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Resources\0010000.png" />
+    <None Remove="Resources\0010001.png" />
+    <None Remove="Resources\0010102.png" />
+    <None Remove="Resources\0010103.png" />
+    <None Remove="Resources\0010304.png" />
+    <None Remove="Resources\0010305.png" />
+    <None Remove="Resources\0020001.png" />
+    <None Remove="Resources\0020102.png" />
+    <None Remove="Resources\0020103.png" />
+    <None Remove="Resources\0020304.png" />
+    <None Remove="Resources\0020305.png" />
+    <None Remove="Resources\0030200.png" />
+    <None Remove="Resources\0040000.png" />
+    <None Remove="Resources\0040001.png" />
+    <None Remove="Resources\0040002.png" />
+    <None Remove="Resources\0040003.png" />
+    <None Remove="Resources\0040004.png" />
+    <None Remove="Resources\0060000.png" />
+    <None Remove="Resources\0060001.png" />
+    <None Remove="Resources\0060202.png" />
+    <None Remove="Resources\0060204.png" />
+    <None Remove="Resources\0060205.png" />
+    <None Remove="Resources\0060206.png" />
+    <None Remove="Resources\0060207.png" />
+    <None Remove="Resources\0060208.png" />
+    <None Remove="Resources\0060303.png" />
+    <None Remove="Resources\0060305.png" />
+    <None Remove="Resources\0071000.png" />
+    <None Remove="Resources\0071001.png" />
+    <None Remove="Resources\0071202.png" />
+    <None Remove="Resources\0071204.png" />
+    <None Remove="Resources\0071205.png" />
+    <None Remove="Resources\0071206.png" />
+    <None Remove="Resources\0071207.png" />
+    <None Remove="Resources\0071208.png" />
+    <None Remove="Resources\0071303.png" />
+    <None Remove="Resources\0071305.png" />
+    <None Remove="Resources\1010000.png" />
+    <None Remove="Resources\1010001.png" />
+    <None Remove="Resources\1010103.png" />
+    <None Remove="Resources\1010202.png" />
+    <None Remove="Resources\1010204.png" />
+    <None Remove="Resources\1010205.png" />
+    <None Remove="Resources\1010206.png" />
+    <None Remove="Resources\1020000.png" />
+    <None Remove="Resources\1020001.png" />
+    <None Remove="Resources\1020103.png" />
+    <None Remove="Resources\1020202.png" />
+    <None Remove="Resources\1020204.png" />
+    <None Remove="Resources\1020205.png" />
+    <None Remove="Resources\1020206.png" />
+    <None Remove="Resources\1030100.png" />
+    <None Remove="Resources\1030101.png" />
+    <None Remove="Resources\1040000.png" />
+    <None Remove="Resources\1040001.png" />
+    <None Remove="Resources\1040002.png" />
+    <None Remove="Resources\1040003.png" />
+    <None Remove="Resources\1040004.png" />
+    <None Remove="Resources\1060000.png" />
+    <None Remove="Resources\1060202.png" />
+    <None Remove="Resources\1060203.png" />
+    <None Remove="Resources\1060204.png" />
+    <None Remove="Resources\1060205.png" />
+    <None Remove="Resources\1060206.png" />
+    <None Remove="Resources\1060207.png" />
+    <None Remove="Resources\1060208.png" />
+    <None Remove="Resources\1060209.png" />
+    <None Remove="Resources\1060210.png" />
+    <None Remove="Resources\1060301.png" />
+    <None Remove="Resources\1071000.png" />
+    <None Remove="Resources\1071202.png" />
+    <None Remove="Resources\1071203.png" />
+    <None Remove="Resources\1071204.png" />
+    <None Remove="Resources\1071205.png" />
+    <None Remove="Resources\1071206.png" />
+    <None Remove="Resources\1071207.png" />
+    <None Remove="Resources\1071208.png" />
+    <None Remove="Resources\1071209.png" />
+    <None Remove="Resources\1071210.png" />
+    <None Remove="Resources\1071301.png" />
+    <None Remove="Resources\2000100.png" />
+    <None Remove="Resources\2000301.png" />
+    <None Remove="Resources\2000302.png" />
+    <None Remove="Resources\2030200.png" />
+    <None Remove="Resources\2040000.png" />
+    <None Remove="Resources\2040001.png" />
+    <None Remove="Resources\2050000.png" />
+    <None Remove="Resources\NoImage.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="DropdownMenu.WPF" Version="1.0.0" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
+    <PackageReference Include="SimpleModal.WPF" Version="1.0.0" />
+    <PackageReference Include="Vse.Web.Serialization.ControlledSerializationJsonConverter" Version="1.0.4" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Resources\0010000.png" />
+    <Resource Include="Resources\0010001.png" />
+    <Resource Include="Resources\0010102.png" />
+    <Resource Include="Resources\0010103.png" />
+    <Resource Include="Resources\0010304.png" />
+    <Resource Include="Resources\0010305.png" />
+    <Resource Include="Resources\0020001.png" />
+    <Resource Include="Resources\0020102.png" />
+    <Resource Include="Resources\0020103.png" />
+    <Resource Include="Resources\0020304.png" />
+    <Resource Include="Resources\0020305.png" />
+    <Resource Include="Resources\0030200.png" />
+    <Resource Include="Resources\0040000.png" />
+    <Resource Include="Resources\0040001.png" />
+    <Resource Include="Resources\0040002.png" />
+    <Resource Include="Resources\0040003.png" />
+    <Resource Include="Resources\0040004.png" />
+    <Resource Include="Resources\0060000.png" />
+    <Resource Include="Resources\0060001.png" />
+    <Resource Include="Resources\0060202.png" />
+    <Resource Include="Resources\0060204.png" />
+    <Resource Include="Resources\0060205.png" />
+    <Resource Include="Resources\0060206.png" />
+    <Resource Include="Resources\0060207.png" />
+    <Resource Include="Resources\0060208.png" />
+    <Resource Include="Resources\0060303.png" />
+    <Resource Include="Resources\0060305.png" />
+    <Resource Include="Resources\0071000.png" />
+    <Resource Include="Resources\0071001.png" />
+    <Resource Include="Resources\0071202.png" />
+    <Resource Include="Resources\0071204.png" />
+    <Resource Include="Resources\0071205.png" />
+    <Resource Include="Resources\0071206.png" />
+    <Resource Include="Resources\0071207.png" />
+    <Resource Include="Resources\0071208.png" />
+    <Resource Include="Resources\0071303.png" />
+    <Resource Include="Resources\0071305.png" />
+    <Resource Include="Resources\1010000.png" />
+    <Resource Include="Resources\1010001.png" />
+    <Resource Include="Resources\1010103.png" />
+    <Resource Include="Resources\1010202.png" />
+    <Resource Include="Resources\1010204.png" />
+    <Resource Include="Resources\1010205.png" />
+    <Resource Include="Resources\1010206.png" />
+    <Resource Include="Resources\1020000.png" />
+    <Resource Include="Resources\1020001.png" />
+    <Resource Include="Resources\1020103.png" />
+    <Resource Include="Resources\1020202.png" />
+    <Resource Include="Resources\1020204.png" />
+    <Resource Include="Resources\1020205.png" />
+    <Resource Include="Resources\1020206.png" />
+    <Resource Include="Resources\1030100.png" />
+    <Resource Include="Resources\1030101.png" />
+    <Resource Include="Resources\1040000.png" />
+    <Resource Include="Resources\1040001.png" />
+    <Resource Include="Resources\1040002.png" />
+    <Resource Include="Resources\1040003.png" />
+    <Resource Include="Resources\1040004.png" />
+    <Resource Include="Resources\1060000.png" />
+    <Resource Include="Resources\1060202.png" />
+    <Resource Include="Resources\1060203.png" />
+    <Resource Include="Resources\1060204.png" />
+    <Resource Include="Resources\1060205.png" />
+    <Resource Include="Resources\1060206.png" />
+    <Resource Include="Resources\1060207.png" />
+    <Resource Include="Resources\1060208.png" />
+    <Resource Include="Resources\1060209.png" />
+    <Resource Include="Resources\1060210.png" />
+    <Resource Include="Resources\1060301.png" />
+    <Resource Include="Resources\1071000.png" />
+    <Resource Include="Resources\1071202.png" />
+    <Resource Include="Resources\1071203.png" />
+    <Resource Include="Resources\1071204.png" />
+    <Resource Include="Resources\1071205.png" />
+    <Resource Include="Resources\1071206.png" />
+    <Resource Include="Resources\1071207.png" />
+    <Resource Include="Resources\1071208.png" />
+    <Resource Include="Resources\1071209.png" />
+    <Resource Include="Resources\1071210.png" />
+    <Resource Include="Resources\1071301.png" />
+    <Resource Include="Resources\2000100.png" />
+    <Resource Include="Resources\2000301.png" />
+    <Resource Include="Resources\2000302.png" />
+    <Resource Include="Resources\2030200.png" />
+    <Resource Include="Resources\2040000.png" />
+    <Resource Include="Resources\2040001.png" />
+    <Resource Include="Resources\2050000.png" />
+    <Resource Include="Resources\NoImage.png" />
+  </ItemGroup>
+
+</Project>

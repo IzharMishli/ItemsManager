@@ -1,0 +1,20 @@
+﻿<Window x:Class="ItemsManager.WPF.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ItemsManager.WPF" 
+        xmlns:views="clr-namespace:ItemsManager.WPF.Views" 
+        xmlns:viewmodels="clr-namespace:ItemsManager.WPF.ViewModels" 
+        mc:Ignorable="d"
+        Title="MainWindow" Height="600" MinHeight="600"  Width="1000" MinWidth="1000">
+    <Grid>
+        <ScrollViewer VerticalScrollBarVisibility="auto" HorizontalScrollBarVisibility="Auto">
+            <StackPanel>
+                <views:MainView Margin="20" DataContext="{Binding MainInstance}"/>
+                
+            </StackPanel>
+            
+        </ScrollViewer>
+    </Grid>
+</Window>
